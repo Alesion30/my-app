@@ -28,5 +28,8 @@
   "biome.enabled": true,
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[properties]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   }
 }

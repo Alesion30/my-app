@@ -1,7 +1,7 @@
-import '@/styles/globals.css';
+import '@my-app/ui/globals.css';
+import { cn } from '@my-app/ui/src/lib/utils';
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
-import { cn } from '../lib/utils';
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ja'>
-      <body className={cn('dark min-h-screen bg-background font-sans antialiased', fontSans.variable)}>{children}</body>
+      <body className={cn('min-h-screen bg-background font-sans antialiased', fontSans.variable)}>{children}</body>
     </html>
   );
 }
