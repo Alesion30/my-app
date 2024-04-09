@@ -25,5 +25,8 @@
   "eslint.enable": false,
   "prettier.enable": false,
   "stylelint.enable": true,
-  "biome.enabled": true
+  "biome.enabled": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  }
 }

@@ -14,6 +14,9 @@ importers:
       lefthook:
         specifier: ^1.6.9
         version: 1.6.9
+      typescript:
+        specifier: ^5
+        version: 5.4.4
 
   packages/client:
     dependencies:
@@ -96,9 +99,6 @@ importers:
       jsdom:
         specifier: ^24.0.0
         version: 24.0.0
-      lefthook:
-        specifier: ^1.6.9
-        version: 1.6.9
       postcss:
         specifier: ^8
         version: 8.4.38
@@ -108,9 +108,46 @@ importers:
       tailwindcss:
         specifier: ^3.3.0
         version: 3.4.3
-      typescript:
-        specifier: ^5
-        version: 5.4.4
+      vitest:
+        specifier: ^1.4.0
+        version: 1.4.0(@types/node@20.12.6)(jsdom@24.0.0)
+
+  packages/ui:
+    dependencies:
+      '@radix-ui/react-slot':
+        specifier: ^1.0.2
+        version: 1.0.2(@types/react@18.2.75)(react@18.2.0)
+      class-variance-authority:
+        specifier: ^0.7.0
+        version: 0.7.0
+      clsx:
+        specifier: ^2.1.0
+        version: 2.1.0
+      lucide-react:
+        specifier: ^0.366.0
+        version: 0.366.0(react@18.2.0)
+      tailwind-merge:
+        specifier: ^2.2.2
+        version: 2.2.2
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@3.4.3)
+    devDependencies:
+      '@types/node':
+        specifier: ^20
+        version: 20.12.6
+      '@types/react':
+        specifier: ^18
+        version: 18.2.75
+      autoprefixer:
+        specifier: ^10.0.1
+        version: 10.4.19(postcss@8.4.38)
+      postcss:
+        specifier: ^8
+        version: 8.4.38
+      tailwindcss:
+        specifier: ^3.3.0
+        version: 3.4.3
       vitest:
         specifier: ^1.4.0
         version: 1.4.0(@types/node@20.12.6)(jsdom@24.0.0)
