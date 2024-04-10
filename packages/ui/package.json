@@ -6,6 +6,7 @@
     "ui:add": "pnpm dlx shadcn-ui@latest add"
   },
   "dependencies": {
+    "@my-app/config": "workspace:*",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
