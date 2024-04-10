@@ -1,4 +1,4 @@
-import { Button } from '@my-app/ui/src/components/ui/button';
+import { Button } from '@my-app/ui';
 import Image from 'next/image';
 
 export default function Home() {
