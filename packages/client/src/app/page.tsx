@@ -1,4 +1,4 @@
-import { Button } from '@my-app/ui';
+import { Button } from '@my-app/shadcn';
 import Image from 'next/image';
 
 export default function Home() {

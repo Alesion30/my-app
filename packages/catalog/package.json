@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@my-app/config": "workspace:*",
-    "@my-app/ui": "workspace:*"
+    "@my-app/shadcn": "workspace:*"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.3.2",

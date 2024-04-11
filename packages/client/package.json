@@ -9,7 +9,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "@my-app/ui": "workspace:*",
+    "@my-app/shadcn": "workspace:*",
     "@my-app/config": "workspace:*",
     "next": "14.1.4",
     "react": "^18",

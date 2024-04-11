@@ -4,9 +4,9 @@ import tsconfigPaths from 'vite-tsconfig-paths';
 const config: StorybookConfig = {
   stories: [
     {
-      directory: '../../ui/src',
+      directory: '../../shadcn/src/',
       files: '**/*.stories.@(jsx|tsx|mdx)',
-      titlePrefix: 'ui',
+      titlePrefix: 'shadcn',
     },
   ],
   addons: [

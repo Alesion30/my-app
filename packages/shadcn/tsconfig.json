@@ -16,7 +16,7 @@
     "paths": {
       // NOTE: Next.js側でaliasを認識させるため、直接パスを指定する
       // https://github.com/vercel/turbo/discussions/620
-      "@/*": ["../../packages/ui/src/*"]
+      "@/*": ["../../packages/shadcn/src/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],

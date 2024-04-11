@@ -1,5 +1,5 @@
-import { cn } from '@my-app/ui';
-import '@my-app/ui/globals.css';
+import { cn } from '@my-app/shadcn';
+import '@my-app/shadcn/globals.css';
 import type { Metadata } from 'next';
 import { Inter as FontSans } from 'next/font/google';
 
