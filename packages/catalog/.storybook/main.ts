@@ -1,5 +1,5 @@
-import path from 'node:path';
 import type { StorybookConfig } from '@storybook/react-vite';
+import tsconfigPaths from 'vite-tsconfig-paths';
 
 const config: StorybookConfig = {
   stories: [
@@ -28,15 +28,12 @@ const config: StorybookConfig = {
       include: ['../../**/*.tsx'],
     },
   },
-  // async viteFinal(config) {
-  //   const { mergeConfig } = await import('vite');
-
-  //   return mergeConfig(config, {
-  //     resolve: {
-  //       alias: { '@': path.resolve(path.dirname(__dirname), 'src') },
-  //     },
-  //   });
-  // },
+  async viteFinal(config) {
+    return {
+      ...config,
+      plugins: [...(config.plugins || []), tsconfigPaths()],
+    };
+  },
 };
 
 export default config;
