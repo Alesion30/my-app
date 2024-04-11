@@ -1,4 +1,4 @@
-import '@my-app/shadcn/globals.css';
+import '@my-app/config/tailwindcss/globals.css';
 import type { Preview } from '@storybook/react';
 
 const preview: Preview = {
